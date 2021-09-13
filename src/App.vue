@@ -1,6 +1,8 @@
 <template>
     <div id="app">
-      <Todos />
+      <div class="container">
+        <Todos />
+      </div>
     </div>
   
 </template>
@@ -12,7 +14,6 @@ import Todos from './components/Todos.vue';
 export default {
   name: 'App',
   components: {
-    // eslint-disable-next-line vue/no-unused-components
     Todos,
   }
 }
