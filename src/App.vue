@@ -1,16 +1,19 @@
 <template>
   <div id = "app">
-      <h1> Hello </h1>
+      <div class="container">
+        <Todos />
+      </div>
   </div>
 </template>
 
 <script>
+
 import Todos from "./components/Todos.vue";
 
 export default {
-  name: 'App',
+  name: 'app',
   components: {
-    Todos,
+    Todos
   }
 }
 </script>
